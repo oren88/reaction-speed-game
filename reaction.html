@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reaction Speed Game</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+    #gameCanvas {
+      border: 1px solid black;
+      margin-top: 20px;
+    }
+    #startButton {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+    #message {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <button id="startButton">Start Game</button>
+  <canvas id="gameCanvas" width="800" height="600"></canvas>
+  <div id="message"></div>
+  <script src="game.js"></script>
+</body>
+</html>
